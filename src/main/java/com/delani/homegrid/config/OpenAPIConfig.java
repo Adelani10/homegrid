@@ -28,7 +28,7 @@ import org.springframework.context.annotation.Configuration;
                 ),
                 @Server(
                         description = "Render Production ENV",
-                        url = "https://homegrid-api.onrender.com/api/v1"
+                        url = "https://homegrid.onrender.com/api/v1"
                 )
         },
         security = @SecurityRequirement(name = "bearerAuth")
